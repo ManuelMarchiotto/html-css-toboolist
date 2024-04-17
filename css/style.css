@@ -20,3 +20,25 @@ header{
 MAIN
 **************/
 
+main{
+    background-color: #F6F8F9;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box-button{
+    height: 110PX;
+    width: 1635PX;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid black;
+}
+
+.button{
+    height: 30px;
+    width: 70px;
+
+}
