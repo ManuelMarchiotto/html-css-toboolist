@@ -48,17 +48,13 @@ BUTTON
 .btn{
     padding: 8px 10px;
     background-color: #ffffff;
-    border: 1px solix grey;
+    border: 1px solid grey;
     border-radius: 5px;
 }
 
-.selected{
+.btn-primary{
     background-color: #14AAF5;
     border-color: #14AAF5;
-}
-
-.not-selected{
-    background-color: white;
 }
 
 /**************
@@ -83,29 +79,30 @@ ul{
     padding-top: 35px;
 }
 
-.marker{
+.task{
     height: 25px;
     width: 25px;
     border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
-  margin: auto;
-  padding: 0 5px;
+    margin: auto;
+    padding: 0 5px;
 }
 
-.true{
+.task-done{
     border-color: green;
     color: green;
 }
 
-.false{
+.task-undone{
     border-color: red;
     color: red;
 }
 
 .tag{
     padding: 4px 10px;
-    background-color: black;
+    background-color: #09A9ED;
     border-radius: 20px;
     color: white;
 }
+
