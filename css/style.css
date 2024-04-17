@@ -27,21 +27,43 @@ main{
 
 }
 
+/**************
+BUTTON
+**************/
+
 .box-button{
-    height: 50px;
     width: 1635PX;
-    background-color: blueviolet;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-color: white;
     margin: auto;
     border-radius: 10px 10px 0 0;
     border: 2px solid black;
+
+    
 }
 
-.button{
-    height: 30px;
-    width: 70px;
-
-
+.btn{
+    padding: 8px 10px;
+    background-color: #ffffff;
+    border: 1px solix grey;
+    border-radius: 5px;
 }
+
+.selected{
+    background-color: #14AAF5;
+    border-color: #14AAF5;
+}
+
+.not-selected{
+    background-color: white;
+}
+
+/**************
+LIST
+**************/
 
 ul{
     list-style: none;
@@ -50,12 +72,40 @@ ul{
 .box-list{
     height: 520px;
     width: 1635px;
-    background-color: blueviolet;
+    background-color: white;
     margin: auto;
+    border: 2px solid black;
 }
 
 .list{
     text-align: left;
     padding-left: 60px;
     padding-top: 35px;
+}
+
+.marker{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+  margin: auto;
+  padding: 0 5px;
+}
+
+.true{
+    border-color: green;
+    color: green;
+}
+
+.false{
+    border-color: red;
+    color: red;
+}
+
+.tag{
+    padding: 4px 10px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
 }
