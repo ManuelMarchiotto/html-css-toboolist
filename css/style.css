@@ -24,6 +24,7 @@ main{
     background-color: #F6F8F9;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 100px;
 
 }
 
@@ -40,9 +41,7 @@ BUTTON
     background-color: white;
     margin: auto;
     border-radius: 10px 10px 0 0;
-    border: 2px solid black;
-
-    
+    border: 2px solid #F6F8F9;  
 }
 
 .btn{
@@ -66,17 +65,21 @@ ul{
 }
 
 .box-list{
-    height: 520px;
+    height: 650px;
     width: 1635px;
     background-color: white;
     margin: auto;
-    border: 2px solid black;
+    border-radius: 0 0 10px 10px;
 }
 
 .list{
     text-align: left;
     padding-left: 60px;
     padding-top: 35px;
+}
+
+.task-container{
+    padding-top: 20px;
 }
 
 .task{
@@ -106,3 +109,22 @@ ul{
     color: white;
 }
 
+.tag-goal{
+    background-color: #AB5DE6;
+}
+
+.tag-recruiting{
+    background-color: #2CC6AB;
+}
+
+.tag-mobile{
+    background-color: #FF9B00;
+}
+
+.tag-website{
+    background-color: #EC4A9D;
+}
+
+.tag-sales{
+    background-color: #A3D116;
+}
